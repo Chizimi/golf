@@ -1,0 +1,1 @@
+﻿import React from 'react'; export default function App() { return (<div style={{padding: '20px', fontFamily: 'sans-serif', backgroundColor: '#1a1a1a', color: '#fff', minHeight: '100vh'}}><h1>エンジニア学習ログ</h1><p>技術の記録をここから始めます。</p></div>); }

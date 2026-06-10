@@ -1,0 +1,115 @@
+:root {
+  --primary-color: #2e7d32;
+  --secondary-color: #4caf50;
+  --bg-color: #f1f8e9;
+  --text-color: #1b5e20;
+  --card-bg: #ffffff;
+  --border-color: #c8e6c9;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.hero-container {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.app-main {
+  flex: 1;
+}
+
+.intro {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.records-section h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.date {
+  font-weight: bold;
+  color: #666;
+}
+
+.tag {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.card-content {
+  margin: 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: #888;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  border-top: 1px solid var(--border-color);
+  color: #666;
+  font-size: 0.9rem;
+}
