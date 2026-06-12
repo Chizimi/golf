@@ -1,5 +1,5 @@
 import './App.css';
-import heroImage from './assets/hero.png';
+import heroImage from './assets/生成AI作成ゴルフ画像.png';
 
 export default function App() {
   return (
@@ -7,7 +7,7 @@ export default function App() {
       <header className="app-header">
         <h1>ゴルフ成長記</h1>
         <div className="hero-container">
-          <img src={"/assets/生成AI作成ゴルフ画像.png"} alt="Golf Field" className="hero-image" />
+          <img src={heroImage} alt="Golf Field" className="hero-image" />
         </div>
       </header>
 
