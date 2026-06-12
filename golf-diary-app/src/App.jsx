@@ -7,10 +7,10 @@ export default function App() {
       <header className="app-header">
         <h1>ゴルフ成長記</h1>
         <div className="hero-container">
-          <img src={heroImage} alt="Golf Field" className="hero-image" />
+          <img src={"/assets/生成AI作成ゴルフ画像.png"} alt="Golf Field" className="hero-image" />
         </div>
       </header>
-      
+
       <main className="app-main">
         <section className="intro">
           <p>ゴルフの上達を記録するためのダイアリーです。日々の練習やラウンドのスコアを記録しましょう。</p>
@@ -25,7 +25,7 @@ export default function App() {
             </div>
             <p className="card-content">アイアンの打ち込み練習。100球。フォームの安定を意識した。</p>
           </div>
-          
+
           <div className="card empty-state">
             <p>さらに過去の記録はありません。</p>
           </div>
