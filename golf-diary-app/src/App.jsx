@@ -25,7 +25,7 @@ export default function App() {
         </section>
 
         <section className="records-section">
-          <h2>最新의 기록</h2>
+          <h2>最新情報</h2>
           <div className="card">
             <div className="card-header">
               <span className="date">2026/06/10</span>
