@@ -29,7 +29,7 @@ export default function App() {
           <div className="card">
             <div className="card-header">
               <span className="date">2026/06/11</span>
-              <span className="tag">うちっぱなし</span>
+              <span className="tag">打ちっ放し</span>
             </div>
             <p className="card-content">アイアンの打ち込み(130yd)、ドライバー初うち。ドライバーがとても難しい</p>
           </div>
