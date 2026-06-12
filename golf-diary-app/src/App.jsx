@@ -23,16 +23,15 @@ export default function App() {
               <span className="date">2026/06/10</span>
               <span className="tag">練習</span>
             </div>
-            <p className="card-content">アイアンの打ち込み練習。100球。フォームの安定を意識した<br>120ヤード</br>。</p>
-
+            <p className="card-content">アイアンの打ち込み練習。100球。フォームの安定を意識した<br />120ヤード。</p>
           </div>
 
           <div className="card">
             <div className="card-header">
-              <span className="date">2026/06/011</span>
+              <span className="date">2026/06/11</span>
               <span className="tag">うちっぱなし</span>
-              <p className="card-content">アイアンの打ち込み(130yd)、ドライバー初うち。ドライバーがとても難しい</p>
             </div>
+            <p className="card-content">アイアンの打ち込み(130yd)、ドライバー初うち。ドライバーがとても難しい</p>
           </div>
           <div className="card empty-state">
             <p>さらに過去の記録はありません。</p>
