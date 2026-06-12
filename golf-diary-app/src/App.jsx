@@ -1,7 +1,15 @@
+import { useState } from 'react';
 import './App.css';
 import heroImage from './assets/生成AI作成ゴルフ画像.png';
+import PrivacyPolicy from './PrivacyPolicy';
 
 export default function App() {
+  const [showPrivacy, setShowPrivacy] = useState(false);
+
+  if (showPrivacy) {
+    return <PrivacyPolicy onBack={() => setShowPrivacy(false)} />;
+  }
+
   return (
     <div className="app-container">
       <header className="app-header">
@@ -17,7 +25,7 @@ export default function App() {
         </section>
 
         <section className="records-section">
-          <h2>最新の記録</h2>
+          <h2>最新의 기록</h2>
           <div className="card">
             <div className="card-header">
               <span className="date">2026/06/10</span>
@@ -40,6 +48,11 @@ export default function App() {
       </main>
 
       <footer className="app-footer">
+        <div className="footer-links">
+          <button className="footer-link" onClick={() => setShowPrivacy(true)}>
+            プライバシーポリシー
+          </button>
+        </div>
         <p>&copy; 2026 ゴルフ成長記</p>
       </footer>
     </div>
